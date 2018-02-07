@@ -1,0 +1,17 @@
+#myCanvas {
+    border: 1px solid black;
+  }
+
+  #animatedBackground{
+    background:url(../images/space.png);
+    animation:20s scroll infinite linear;
+    width:850px;
+    height:600px;
+  }
+  
+  @-webkit-keyframes scroll{
+    100%{
+      background-position:0px 800px;
+    }
+  }
+  /*source : https://codepen.io/ScottMarshall/pen/fnmtx*/
